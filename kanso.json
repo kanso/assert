@@ -2,6 +2,7 @@
     "name": "assert",
     "version": "0.0.1",
     "modules": "assert.js",
+    "categories": ["testing"],
     "dependencies": {
         "modules": ">=0.0.8"
     },
