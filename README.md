@@ -4,6 +4,16 @@ This is a browser port of the Node.js assert module. This module is also used
 internally by Nodeunit.
 
 
+### Usage
+
+```javascript
+var assert = require('assert');
+
+assert.ok(true, 'This will pass');
+assert.equal('foo', 'bar', 'This will throw an AssertionError');
+```
+
+
 ### API
 
 
